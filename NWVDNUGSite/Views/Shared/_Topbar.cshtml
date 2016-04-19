@@ -7,15 +7,6 @@
             <ul class="nav">
                 <li @if (ViewBag.NavActive == "Home")
                     {<text>class="active"</text>}>@Html.ActionLink("Home", "Index", "Home")</li>
-                <li class="dropdown" data-dropdown="dropdown">
-                    <a class="dropdown-toggle" href="#">Meetings</a>
-                    <ul class="dropdown-menu">
-                        <li @if (ViewBag.NavActive == "MeetingNext")
-                            {<text>class="active"</text>}>@Html.ActionLink("Next", "Next", "Meetings")</li>
-                        <li @if (ViewBag.NavActive == "MeetingUpcoming")
-                            {<text>class="active"</text>}>@Html.ActionLink("Upcoming", "Upcoming", "Meetings")</li>
-                    </ul>
-                </li>
                 <li @if (ViewBag.NavActive == "Sponsors")
                     {<text>class="active"</text>}>@Html.ActionLink("Sponsors", "Sponsors", "Home")</li>
                 <li @if (ViewBag.NavActive == "Network")

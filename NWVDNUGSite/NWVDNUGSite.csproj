@@ -130,11 +130,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\ApiController.cs" />
-    <Compile Include="Controllers\DtoFactory.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\MeetingsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -143,12 +139,32 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\NWVDNUG Logos\NWVDNUG_avatar.jpg" />
+    <Content Include="Content\images\NWVDNUG Logos\NWVDNUG_logo_FINAL.jpg" />
+    <Content Include="Content\images\NWVDNUG Logos\NWVDNUG_logo_FINAL.png" />
+    <Content Include="Content\images\NWVDNUG Logos\NWVDNUG_logo_FINAL_highres.jpg" />
+    <Content Include="Content\images\NWVDNUG Logos\NWVDNUG_logo_FINAL_highres.png" />
+    <Content Include="Content\images\NWVDNUG_logo.jpg" />
+    <Content Include="Content\images\NWVDNUG_logo.png" />
+    <Content Include="Content\images\NWVDNUG_logo_highres.jpg" />
+    <Content Include="Content\images\sponsors\C1Logo_static_125x125px.jpg" />
+    <Content Include="Content\images\sponsors\discountasp_static_120x60px.gif" />
+    <Content Include="Content\images\sponsors\logo_resharper.gif" />
+    <Content Include="Content\images\sponsors\logo_resharper189x38.gif" />
+    <Content Include="Content\images\sponsors\neudesic_logo.gif" />
+    <Content Include="Content\images\sponsors\pluralsight-fullcolor-175x39-v1.png" />
+    <Content Include="Content\images\sponsors\RGLogo_SimpleTools_OnWhite_RGB.jpg" />
+    <Content Include="Content\images\sponsors\Tech_Finders_Logo.jpg" />
+    <Content Include="Content\images\sponsors\teksystems.gif" />
+    <Content Include="Content\images\sponsors\telerikLogo_static_122x48px.png" />
+    <Content Include="Content\images\sponsors\telerikLogo_static_450x180px.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\images\NWVDNUG Logos\NWVDNUG_logo_FINAL_highres.pdf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -184,7 +200,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Meetings\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
