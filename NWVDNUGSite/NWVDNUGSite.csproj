@@ -162,9 +162,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="NWVDNUG.Publish.xml" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\images\NWVDNUG Logos\NWVDNUG_logo_FINAL_highres.pdf" />
+    <None Include="Properties\PublishProfiles\nwvdnug.org - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\nwvdnug.org - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
